@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!--
+        "N" pixel art from loading screen (█▀█ / █ █)
+        3×4 sub-pixel grid, each block 16×16dp, centered in 108×108
+        Col x: 30-46, 46-62, 62-78
+        Row y: 22-38, 38-54, 54-70, 70-86
+    -->
+    <!-- Row 0: all three columns filled (top of █▀█) -->
+    <path android:fillColor="#1A1A18" android:pathData="M30,22L46,22L46,38L30,38Z"/>
+    <path android:fillColor="#1A1A18" android:pathData="M46,22L62,22L62,38L46,38Z"/>
+    <path android:fillColor="#1A1A18" android:pathData="M62,22L78,22L78,38L62,38Z"/>
+    <!-- Row 1: left and right only (bottom of █▀█ / top of █ █) -->
+    <path android:fillColor="#1A1A18" android:pathData="M30,38L46,38L46,54L30,54Z"/>
+    <path android:fillColor="#1A1A18" android:pathData="M62,38L78,38L78,54L62,54Z"/>
+    <!-- Row 2: left and right only -->
+    <path android:fillColor="#1A1A18" android:pathData="M30,54L46,54L46,70L30,70Z"/>
+    <path android:fillColor="#1A1A18" android:pathData="M62,54L78,54L78,70L62,70Z"/>
+    <!-- Row 3: left and right only (bottom of █ █) -->
+    <path android:fillColor="#1A1A18" android:pathData="M30,70L46,70L46,86L30,86Z"/>
+    <path android:fillColor="#1A1A18" android:pathData="M62,70L78,70L78,86L62,86Z"/>
+</vector>

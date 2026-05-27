@@ -1,0 +1,4 @@
+-keep class nl.expeler.einkteletext.model.** { *; }
+-keep class retrofit2.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*

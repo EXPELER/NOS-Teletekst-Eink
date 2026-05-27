@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 108 108">
+  <!-- Background -->
+  <rect width="108" height="108" fill="#F2EFE9" rx="24"/>
+  <!-- N pixel art: 3x4 grid of 16x16 blocks centered -->
+  <!-- Row 0: all three columns -->
+  <rect x="30" y="22" width="16" height="16" fill="#1A1A18"/>
+  <rect x="46" y="22" width="16" height="16" fill="#1A1A18"/>
+  <rect x="62" y="22" width="16" height="16" fill="#1A1A18"/>
+  <!-- Row 1: left and right -->
+  <rect x="30" y="38" width="16" height="16" fill="#1A1A18"/>
+  <rect x="62" y="38" width="16" height="16" fill="#1A1A18"/>
+  <!-- Row 2: left and right -->
+  <rect x="30" y="54" width="16" height="16" fill="#1A1A18"/>
+  <rect x="62" y="54" width="16" height="16" fill="#1A1A18"/>
+  <!-- Row 3: left and right -->
+  <rect x="30" y="70" width="16" height="16" fill="#1A1A18"/>
+  <rect x="62" y="70" width="16" height="16" fill="#1A1A18"/>
+</svg>
